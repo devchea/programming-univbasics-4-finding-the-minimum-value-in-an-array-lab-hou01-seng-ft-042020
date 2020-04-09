@@ -2,7 +2,7 @@ require "pry"
 def find_min_value(array)
   # Add your solution here
  i = 0
- min_value = array[0]
+ min_value = nil
  while i < array.length do
    binding.pry
    if min_value < array[i]
