@@ -8,6 +8,7 @@ def find_min_value(array)
    if min_value < array[i]
      binding.pry
      min_value = array[i]
+     binding.pry
    end
    i += 1
  end
